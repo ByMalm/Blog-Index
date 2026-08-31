@@ -1,48 +1,62 @@
 /** Website 分类配置 */
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
-    title: "示例分类1",
+    title: "Site Apps",
     sites: [
       {
-        title: "主标题",
-        url: "http://www.your-web-page.com/",
+        title: "",
+        url: "",
         icon: "",
-        color: "#0171CD",
+        color: "",
+      },
+    ],
+  },
+
+  {
+    title: "Chat AI",
+    sites: [
+      {
+        title: "CHATGPT",
+        description: "CHATGPT",
+        url: "https://chat.openai.com",
+        icon: "https://www.google.com/s2/favicons?domain=chat.openai.com&sz=128",
+        color: "",
       },
       {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
-        icon: "",
+        title: "CLAUDE",
+        description: "CLAUDE",
+        url: "https://claude.ai",
+        icon: "https://cdn.simpleicons.org/claude",
       },
       {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
-        icon: "",
+        title: "DEEPSEEK",
+        description: "DEEPSEEK",
+        url: "https://chat.deepseek.com",
+        icon: "https://cdn.simpleicons.org/deepseek",
+      },
+      {
+        title: "GEMINI",
+        description: "GEMINI",
+        url: "https://gemini.google.com",
+        icon: "https://cdn.simpleicons.org/googlegemini/8E75B2",
+      },
+      {
+        title: "GROQ",
+        description: "GROK",
+        url: "	https://grok.com",
+        icon: "https://cdn.simpleicons.org/x",
       },
     ],
   },
   {
-    title: "示例分类2",
-  },
-  {
-    title: "示例分类3",
-  },
-  {
-    title: "示例分类4",
-  },
-  {
-    title: "示例分类5",
-  },
-  {
-    title: "友情链接",
+    title: "SITE WEBS",
     sites: [
       {
-        title: "EsunR Blog",
-        description: "EsunR 的博客",
-        url: "https://www.esunr.xyz",
-        icon: "https://esunr-image-bed.oss-cn-beijing.aliyuncs.com/logo.jpg",
+        title: "GROQ",
+        description: "GROQ",
+        url: "	https://groq.com",
+        icon: "",
+        color: "",
       },
     ],
   },
