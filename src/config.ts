@@ -96,15 +96,16 @@ const GLOBAL_CONFIG = {
    * 网站欢迎标语
    */
   SLOGANS: [
+    "Bienvenido, mi amigo!",
     "欢迎拜访",
-    "歡迎拜訪",
-    "Welcome, my friend!",
-    "訪問へようこそ",
-    "嗨，别来无恙",
-    "不忘初心，一生浪漫",
-    "最近还好吗？",
-    "流星，落花，萤火",
-    "马车越空，晃荡越响",
+    "Welcome to our home!",
+    "Bienvenue, mon cher ami!",
+    "नमस्ते, आप कैसे हैं?",
+    "خوش آمدید، دوست من",
+    "Bem-vindo à nossa jornada!",
+    "Привет! Как твои дела?",
+    "Benvenuto, caro amico!",
+    "Willkommen in unserer Welt!",
   ],
   /**
    * Website 分类配置
