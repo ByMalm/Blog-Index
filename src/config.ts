@@ -52,7 +52,7 @@ const WEBSITE_SORTS: WebsiteSort[] = [
     title: "SITE WEBS",
     sites: [
       {
-        title: "GROQ",
+        title: "nose",
         description: "GROQ",
         url: "	https://groq.com",
         icon: "",
