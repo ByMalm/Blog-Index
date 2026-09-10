@@ -1,5 +1,17 @@
 /** Website 分类配置 */
-export const WEBSITE_SORTS: WebsiteSort[] = [
+const WEBSITE_SORTS: WebsiteSort[] = [
+  {
+    title: "Site Apps",
+    sites: [
+      {
+        title: "",
+        url: "",
+        icon: "",
+        color: "",
+      },
+    ],
+  },
+
   {
     title: "Chat AI",
     sites: [
@@ -8,6 +20,7 @@ export const WEBSITE_SORTS: WebsiteSort[] = [
         description: "CHATGPT",
         url: "https://chat.openai.com",
         icon: "https://www.google.com/s2/favicons?domain=chat.openai.com&sz=128",
+        color: "",
       },
       {
         title: "CLAUDE",
@@ -30,7 +43,7 @@ export const WEBSITE_SORTS: WebsiteSort[] = [
       {
         title: "GROK",
         description: "GROK",
-        url: "https://grok.com",
+        url: "	https://grok.com",
         icon: "https://cdn.simpleicons.org/x",
       },
     ],
@@ -41,16 +54,17 @@ export const WEBSITE_SORTS: WebsiteSort[] = [
       {
         title: "GROQ",
         description: "GROQ",
-        url: "https://groq.com",
-        icon: "https://cdn.simpleicons.org/groq",
+        url: "	https://groq.com",
+        icon: "",
+        color: "",
       },
     ],
   },
 ];
 
-export const WEBSITE_ITEMS: WebsiteItem[] = [];
+const WEBSITE_ITEMS: WebsiteItem[] = [];
 
-export const GLOBAL_CONFIG = {
+const GLOBAL_CONFIG = {
   BLOG_NAME: "MALM",
 
   BLOG_URL: "https://bymalm.com/",
@@ -73,11 +87,21 @@ export const GLOBAL_CONFIG = {
     "Benvenuto, caro amico!",
     "Willkommen in unserer Welt!",
   ],
-
+  /**
+   * Website 分类配置
+   */
+  WEBSITE_SORTS,
+  /**
+   * Website 配置（2023.3.29 已废弃）
+   */
+  WEBSITE_ITEMS,
+  /**
+   * 网站 Title Keywords Description 的配置，用于 SEO
+   */
   TKD: {
-    title: "MALM",
-    keywords: "Blog",
-    description: "",
+    title: "My Blog Index",
+    keywords: "Blog, Index, Index Page",
+    description: "This is my personal blog index page.",
   },
 };
 
