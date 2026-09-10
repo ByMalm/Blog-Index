@@ -1,17 +1,5 @@
 /** Website 分类配置 */
-const WEBSITE_SORTS: WebsiteSort[] = [
-  {
-    title: "Site Apps",
-    sites: [
-      {
-        title: "",
-        url: "",
-        icon: "",
-        color: "",
-      },
-    ],
-  },
-
+export const WEBSITE_SORTS: WebsiteSort[] = [
   {
     title: "Chat AI",
     sites: [
@@ -20,7 +8,6 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         description: "CHATGPT",
         url: "https://chat.openai.com",
         icon: "https://www.google.com/s2/favicons?domain=chat.openai.com&sz=128",
-        color: "",
       },
       {
         title: "CLAUDE",
@@ -43,7 +30,7 @@ const WEBSITE_SORTS: WebsiteSort[] = [
       {
         title: "GROK",
         description: "GROK",
-        url: "	https://grok.com",
+        url: "https://grok.com",
         icon: "https://cdn.simpleicons.org/x",
       },
     ],
@@ -54,17 +41,16 @@ const WEBSITE_SORTS: WebsiteSort[] = [
       {
         title: "GROQ",
         description: "GROQ",
-        url: "	https://groq.com",
-        icon: "",
-        color: "",
+        url: "https://groq.com",
+        icon: "https://cdn.simpleicons.org/groq",
       },
     ],
   },
 ];
 
-const WEBSITE_ITEMS: WebsiteItem[] = [];
+export const WEBSITE_ITEMS: WebsiteItem[] = [];
 
-const GLOBAL_CONFIG = {
+export const GLOBAL_CONFIG = {
   BLOG_NAME: "MALM",
 
   BLOG_URL: "https://bymalm.com/",
@@ -90,7 +76,7 @@ const GLOBAL_CONFIG = {
 
   TKD: {
     title: "MALM",
-    keywords: "",
+    keywords: "Blog",
     description: "",
   },
 };
