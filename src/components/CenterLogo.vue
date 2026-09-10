@@ -33,9 +33,6 @@ if (GLOBAL_CONFIG.LOGO_URL) {
   });
 }
 
-/**
- * 加载背景图片
- */
 function loadBackground() {
   var img = new Image();
   img.src = GLOBAL_CONFIG.BACKGROUND_IMG_URL;
@@ -45,9 +42,6 @@ function loadBackground() {
   });
 }
 
-/**
- * 前往我的博客
- */
 function goToBlog() {
   window.location.href = GLOBAL_CONFIG.BLOG_URL;
 }
@@ -76,7 +70,9 @@ onMounted(() => {
       />
       <div :class="['hello', { hello_bottom: touchable }]">
         <div>{{ slogan }}</div>
-        <div class="hello_bottom_text">点击以访问 {{ $config.BLOG_NAME }}</div>
+        <div class="hello_bottom_text">
+          Haz clic para visitar {{ $config.BLOG_NAME }}
+        </div>
       </div>
     </div>
   </div>
