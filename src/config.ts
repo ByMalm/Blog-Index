@@ -1,4 +1,3 @@
-/** Website 分类配置 */
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
     title: "Site Apps",
@@ -75,9 +74,9 @@ const GLOBAL_CONFIG = {
 
   BACKGROUND_IMG_URL: "https://api.dujin.org/bing/1920.php",
 
-  ICP: "京ICP证000001号",
-  ICP_URL: "https://beian.miit.gov.cn/",
-  FOOTER_INFO: true,
+  ICP: "",
+  ICP_URL: "",
+  FOOTER_INFO: false,
 
   SLOGANS: [
     "Bienvenido, mi amigo!",
@@ -91,21 +90,15 @@ const GLOBAL_CONFIG = {
     "Benvenuto, caro amico!",
     "Willkommen in unserer Welt!",
   ],
-  /**
-   * Website 分类配置
-   */
+
   WEBSITE_SORTS,
-  /**
-   * Website 配置（2023.3.29 已废弃）
-   */
+
   WEBSITE_ITEMS,
-  /**
-   * 网站 Title Keywords Description 的配置，用于 SEO
-   */
+
   TKD: {
-    title: "My Blog Index",
-    keywords: "Blog, Index, Index Page",
-    description: "This is my personal blog index page.",
+    title: "Malm",
+    keywords: "",
+    description: "",
   },
 };
 
