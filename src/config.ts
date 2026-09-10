@@ -75,6 +75,10 @@ const GLOBAL_CONFIG = {
 
   BACKGROUND_IMG_URL: "https://api.dujin.org/bing/1920.php",
 
+  ICP: "京ICP证000001号",
+  ICP_URL: "https://beian.miit.gov.cn/",
+  FOOTER_INFO: true,
+
   SLOGANS: [
     "Bienvenido, mi amigo!",
     "欢迎拜访",
