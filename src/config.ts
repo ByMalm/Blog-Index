@@ -1,17 +1,5 @@
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
-    title: "Site Apps",
-    sites: [
-      {
-        title: "",
-        url: "",
-        icon: "",
-        color: "",
-      },
-    ],
-  },
-
-  {
     title: "Chat AI",
     sites: [
       {
@@ -45,6 +33,12 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         url: "	https://grok.com",
         icon: "https://cdn.simpleicons.org/x",
       },
+      {
+        title: "DUCK AI",
+        description: "DUCK AI",
+        url: "https://duck.ai/chat?ia=chat&duckai=1",
+        icon: "https://cdn.simpleicons.org/duckduckgo",
+      },
     ],
   },
   {
@@ -54,6 +48,19 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         title: "GROQ",
         description: "GROQ",
         url: "	https://groq.com",
+        icon: "",
+        color: "",
+      },
+    ],
+  },
+
+  {
+    title: "TOOLS",
+    sites: [
+      {
+        title: "",
+        description: "",
+        url: "",
         icon: "",
         color: "",
       },
