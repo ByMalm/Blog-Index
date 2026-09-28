@@ -125,7 +125,7 @@ onMounted(() => {
 .website-drawer {
   .drawer-handler {
     position: absolute;
-    color: #fff;
+    color: #1a1a1a;
     bottom: 5vh;
     transition: all 1s;
     display: flex;
